@@ -136,4 +136,13 @@ function openDialog(){
     dialog.showModal();
 }
 
+let savebtn = document.getElementById('submitbtn')
+let habitinput = document.getElementById('habitinput')
+
+savebtn.addEventListener('click', () => {
+    
+    const currentText = habitinput.value;
+    console.log(currentText); 
+});
+
 
